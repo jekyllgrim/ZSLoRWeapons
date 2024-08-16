@@ -16,6 +16,8 @@ This mod is an exact mechanical replica, but NOT an exact visual replica of the 
 
 ## Contents
 
-- **Incinerator** — Plasma Rifle replacement. The mod modifies its fire and projectile animations a bit, so there's less quick flickering between sprite frames, making the animation smoother. It also adds some particle effects and more nuanced muzzle flash animation with more sprite variations.
+- **Incinerator** — original weapon by Xaser Acheron (ND)
+  Plasma Rifle replacement. The mod modifies its fire and projectile animations a bit, so there's less quick flickering between sprite frames, making the animation smoother. It also adds some particle effects and more nuanced muzzle flash animation with more sprite variations.
 
-- **Heatwave Generator** — *not currently included*. Will be a BFG9000 replacement.
+- **Heatwave Generator** — original weapon by Roger Berrones (id) & Xaser Acheron (ND)
+  BFG9000 replacement. In the mod it has a slightly more nuanced muzzle flash, and the gun doesn't become fully bright when charging/firing, only the muzzle flash does. The projectiles also have lo-fi particle effects added.

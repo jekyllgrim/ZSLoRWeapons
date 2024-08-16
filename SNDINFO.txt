@@ -7,3 +7,7 @@ $random DoomRR/IncineratorFlame/death { DoomRR/IncineratorFlame/death1 DoomRR/In
 DoomRR/IncineratorFlame/death1 DSINCHT1
 DoomRR/IncineratorFlame/death2 DSINCHT2
 DoomRR/IncineratorFlame/fizzle DSINCHT3
+
+DoomRR/heatwave/charge DSHETCHG
+DoomRR/heatwave/fire DSHETSHT
+DoomRR/heatwave/explode DSHETXPL
