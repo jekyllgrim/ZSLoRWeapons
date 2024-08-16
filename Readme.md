@@ -16,6 +16,6 @@ This mod is an exact mechanical replica, but NOT an exact visual replica of the 
 
 ## Contents
 
-- **Incinerator **— Plasma Rifle replacement. The mod modifies its fire and projectile animations a bit, so there's less quick flickering between sprite frames, making the animation smoother. It also adds some particle effects and more nuanced muzzle flash animation with more sprite variations.
+- **Incinerator** — Plasma Rifle replacement. The mod modifies its fire and projectile animations a bit, so there's less quick flickering between sprite frames, making the animation smoother. It also adds some particle effects and more nuanced muzzle flash animation with more sprite variations.
 
 - **Heatwave Generator** — *not currently included*. Will be a BFG9000 replacement.
