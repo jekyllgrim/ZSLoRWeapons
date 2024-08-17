@@ -74,7 +74,9 @@ class JGP_Incinerator : Weapon replaces PlasmaRifle
 		// this flash exists:
 		#### ### 1 bright
 		{
-			A_OverlayAlpha(OverlayID(), 0.75 + 0.25 * sin(360.0 * player.refire / 10));
+			double fac = sin(360.0 * player.refire / 10);
+			A_OverlayAlpha(OverlayID(), 0.75 + 0.25 * fac);
+			player.extralight = int(round(3 * (0.5 + 0.5*fac)));
 		}
 		goto LightDone;
 	}
