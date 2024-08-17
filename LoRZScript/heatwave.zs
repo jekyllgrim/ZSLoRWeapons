@@ -1,3 +1,7 @@
+// This weapon is officially called Calamity Blade,
+// but it's also referred to as Heatwave Generator
+// in DECOHACK.
+
 class JGP_Heatwave : Weapon replaces BFG9000
 {
 	int heatwaveCharge;
@@ -5,7 +9,7 @@ class JGP_Heatwave : Weapon replaces BFG9000
 	Default
 	{
 		Tag "Heatwave Generator";
-		Inventory.PickupMessage "ID24_GOTCALAMITYBLADE";
+		Inventory.PickupMessage "$ID24_GOTCALAMITYBLADE";
 		Weapon.SlotNumber 7;
 		Weapon.AmmoType "Cell";
 		Weapon.AmmoUse 10;
@@ -78,10 +82,9 @@ class JGP_Heatwave : Weapon replaces BFG9000
 				A_StartSound("DoomRR/heatwave/charge", CHAN_WEAPON);
 			}
 		}
-		TNT1 A 0 A_CheckReload;
 		TNT1 A 0 
 		{
-			if (invoker.heatwaveCharge < 5)
+			if (invoker.heatwaveCharge < 5 && invoker.CheckAmmo(PrimaryFire, false))
 			{
 				A_ReFire();
 			}
@@ -133,7 +136,6 @@ class JGP_HeatWaveRipper : Actor
 {
 	static const color partColors[] =
 	{
-		"9b3333",
 		"af4300",
 		"d75f0b",
 		"eb6f0f",
@@ -142,7 +144,7 @@ class JGP_HeatWaveRipper : Actor
 
 	Default
 	{
-		Tag  "Heatwave Ripper";
+		Tag "Heatwave Ripper";
 		Projectile;
 		Damage DOOMRR_HEATWAVE_RIPPER_DAMAGE;
 		Speed DOOMRR_HEATWAVE_RIPPER_VELOCITY;
