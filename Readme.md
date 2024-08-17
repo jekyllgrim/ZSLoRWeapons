@@ -19,7 +19,7 @@ This mod is an exact mechanical replica, but NOT an exact visual replica of the 
 - **Incinerator** — original weapon by Xaser Acheron (ND)
   Plasma Rifle replacement. The mod modifies its fire and projectile animations a bit, so there's less quick flickering between sprite frames, making the animation smoother. It also adds some particle effects and more nuanced muzzle flash animation with more sprite variations.
 
-- **Heatwave Generator** (aka Calamity Blade, as it's known in some parts of the game's code) — original weapon by Roger Berrones (id) & Xaser Acheron (ND)
+- **Calamity Blade** (aka Heatwave Generator, as it's known in some parts of the game's code) — original weapon by Roger Berrones (id) & Xaser Acheron (ND)
   BFG9000 replacement. In the mod it has a slightly more nuanced muzzle flash, and the gun doesn't become fully bright when charging/firing, only the muzzle flash does. The projectiles also have lo-fi particle effects added.
   In addition to that, this version *does* allow for vertical autoaiming (in contrast to the *Legacy of Rust* version, which doesn't), but all fired projectiles will be aimed in sync.
 
