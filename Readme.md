@@ -27,7 +27,11 @@ This mod is an exact mechanical replica, but NOT an exact visual replica of the 
 
 1. Download this archive: https://github.com/jekyllgrim/ZSLoRWeapons/archive/refs/heads/main.zip
 
-2. 
+2. You'll get a file called ZSLoRWeapons-main.zip. DO NOT UNPACK.
+
+3. Add this file to your load order, like any other mod.
+
+4. (Optional) You can change its extension from .zip to .pk3 if you like (but this is not required).
 
 ## FAQ
 
