@@ -34,9 +34,17 @@ class JGP_Heatwave : Weapon replaces BFG9000
 			break;
 		}
 
+		// In Legacy of Rust vertical autoaim is completely disabled for Heatwave,
+		// presumably to prevent situations where a part of the "wave" is autoaimed
+		// and a part isn't (supposedly ugly?)
+		// Here instead we calculate the autoaim-affected slope with BulletSlope()
+		// and then just unconditinally apply it to all projectiles, so if they
+		// do get autoaimed, they'll be autoaimed together:
+		double projPitch = BulletSlope();
 		for (double ang = -angle; ang <= angle; ang += 5.0)
 		{
-			A_FireProjectile("JGP_HeatWaveRipper", ang, useammo: false);
+			// Since autoaim is handled manually, we'll need FPF_NOAUTOAIM:
+			A_FireProjectile("JGP_HeatWaveRipper", ang, useammo: false, flags: FPF_NOAUTOAIM, pitch: DeltaAngle(pitch, projPitch));
 		}
 
 		invoker.heatwaveCharge = 0;
