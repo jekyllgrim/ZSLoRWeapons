@@ -23,6 +23,12 @@ This mod is an exact mechanical replica, but NOT an exact visual replica of the 
   BFG9000 replacement. In the mod it has a slightly more nuanced muzzle flash, and the gun doesn't become fully bright when charging/firing, only the muzzle flash does. The projectiles also have lo-fi particle effects added.
   In addition to that, this version *does* allow for vertical autoaiming (in contrast to the *Legacy of Rust* version, which doesn't), but all fired projectiles will be aimed in sync.
 
+## How to play
+
+1. Download this archive: https://github.com/jekyllgrim/ZSLoRWeapons/archive/refs/heads/main.zip
+
+2. 
+
 ## FAQ
 
 #### Do I need this to play *Legacy of Rust* in GZDoom?
