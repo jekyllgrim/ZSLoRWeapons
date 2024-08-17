@@ -7,7 +7,7 @@ Sprite "CELLA0", 15, 14
 	Patch "FCPUA0", 0, 0
 }
 
-Texture "CELPA0", 18, 21
+Sprite "CELPA0", 18, 21
 {
 	Offset 8, 21
 	Patch "FTNKA0", 0, 0
