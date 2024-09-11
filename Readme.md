@@ -31,7 +31,9 @@ This mod is an exact mechanical replica, but NOT an exact visual replica of the 
 
 3. Add this file to your load order, like any other mod.
 
-4. (Optional) You can change its extension from .zip to .pk3 if you like (but this is not required).
+   (Optional) You can change its extension from .zip to .pk3 if you like (but this is not required).
+
+5. Take **id24res.wad** from your copy of Doom 1+2 and add it to your load order as well. If you don't know how to add multiple files, look into a launcher, for example ZDL (see a [guide on using ZDL here](https://forum.zdoom.org/viewtopic.php?t=76814)).
 
 ## FAQ
 
